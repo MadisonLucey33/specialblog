@@ -13,3 +13,4 @@ export { default as Comments } from './Comments';
 export { default as CommentsForm } from './CommentsForm';
 export { default as Loader } from './Loader';
 export { default } from './MagicRainbowButton';
+export { default as ViewPhotos } from './ViewPhotos';

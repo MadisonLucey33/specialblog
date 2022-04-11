@@ -7,7 +7,7 @@
 import React from 'react';
 
 import moment from 'moment';
-
+import ViewPhotos from './ViewPhotos';
 const PostDetail = ({ post }) => {
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
@@ -108,6 +108,8 @@ const PostDetail = ({ post }) => {
             return getContentFragment(index, children, typeObj, typeObj.type);
           })}
         </div>
+
+        <ViewPhotos />
       </div>
 
     </>
